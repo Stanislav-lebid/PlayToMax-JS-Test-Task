@@ -12,7 +12,7 @@ class GameBoard {
 
     findGroup(x, y, element, visited) {
         const directions = [
-            [0, 1], [1, 0], [0, -1], [-1, 0] // Праворуч, вниз, ліворуч, вгору
+            [0, 1], [1, 0], [0, -1], [-1, 0] 
         ];
 
         let group = [[x, y]];
