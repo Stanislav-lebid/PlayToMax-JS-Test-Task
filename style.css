@@ -1,4 +1,3 @@
-/* Основні стилі */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -11,12 +10,6 @@ body {
     text-align: center;
 }
 
-/* Заголовок */
-h1 {
-    margin-bottom: 20px;
-}
-
-/* Ігрове поле */
 #game-board {
     display: grid;
     grid-template-columns: repeat(10, 50px); /* Квадратне поле 10x10 */
@@ -25,7 +18,6 @@ h1 {
     border: 2px solid #333;
 }
 
-/* Стиль клітинок */
 .cell {
     width: 50px;
     height: 50px;
